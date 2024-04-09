@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toros Tutor Log In</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: black;
+            color: gold;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .text-center {
+            margin-top: 20px;
+        }
+        .hero-image {
+            flex-grow: 1;
+            text-align: center;
+            overflow: hidden;
+        }
+        .hero-image img {
+            max-height: 100%;
+            width: auto;
+        }
+        .sec1, .sec2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sec2 a {
+            color: white;
+            text-decoration: none;
+        }
+        .sec2 button {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="text-center" style="color: gold;">TOROS TUTOR</h2>
+
+    <div id="heroImage" class="hero-image">
+        <img src="https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Lady with a red shirt writing on a chalkboard with her back towards us.">
+    </div>
+
+    <section class="sec1">
+        <p>Welcome to the Toros Tutor website where students help each other!</p>
+    </section>
+
+    <section class="sec2">
+        <button type="button" class="btn btn-warning"><a href="/student_signup">Student Signup</a></button>
+        <button type="button" class="btn btn-warning"><a href="/tutor_signup">Tutor Signup</a></button>
+        <button type="button" class="btn btn-warning"><a href="signin">Sign in</a></button>
+        <button type="button" class="btn btn-warning"><a href="forgotPass">Forgot Password</a></button>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
